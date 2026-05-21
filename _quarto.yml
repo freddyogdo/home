@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  # output-dir: _site
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
@@ -9,7 +9,7 @@ project:
 website:
   title: "Freddy Ogando"
   site-url: "https://freddyogdo.github.io"
-  description: "Quantitative development and research implementations, work in progress and ideas."
+  # description: "Quantitative development and research implementations, work in progress and ideas."
   search: true
   navbar:
     pinned: true

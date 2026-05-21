@@ -30,7 +30,7 @@
         "\n",
         "## Minimal reproducible example\n"
       ],
-      "id": "1335fe5b"
+      "id": "7d8cb84e"
     },
     {
       "cell_type": "code",
@@ -48,7 +48,7 @@
         "\n",
         "df.head()"
       ],
-      "id": "e0808a44",
+      "id": "8d124638",
       "execution_count": null,
       "outputs": []
     },
@@ -60,7 +60,7 @@
         "\n",
         "The objective is to make technical credibility visible: code quality, reproducibility, and the ability to communicate complex methods clearly."
       ],
-      "id": "f1375890"
+      "id": "e0452df6"
     }
   ],
   "metadata": {

@@ -3,9 +3,9 @@ title: "Freddy Ogando"
 description: "Quantitative Development, Macro-Financial Risk Research, econometrics, financial engineering, and reproducible research systems."
 page-layout: full
 toc: false
-format:
-  html:
-    page-layout: full
+# format:
+#   html:
+#     page-layout: full
 execute:
   freeze: auto
 ---
