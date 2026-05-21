@@ -23,7 +23,7 @@ At the intersection of economic reasoning, applied mathematics and computer scie
 :::
 
 ::: {.section-lead}
-The central purpose of this space is simple: to share applied knowledge and contribute to a more rigorous understanding of financial and economic systems. The underlying idea is that models and research should not be limited to parameter estimation; they should also explain mechanisms, support decision-making, and contribute to the development of intelligent analytical systems.
+The central purpose of this space is simple: to share applied knowledge and contribute to a more rigorous understanding of financial and economic systems. The underlying idea is that models and research should explain mechanisms, support decision-making, and contribute to the development of intelligent analytical systems.
 :::
 
 
@@ -101,23 +101,30 @@ The central purpose of this space is simple: to share applied knowledge and cont
 ::: {.q-grid}
 
 ::: {.q-card .span-4}
-### Languages
+### Quantitative Programming
 
 R, C++, SQL, Python y MatLab.
 
-Objective: combine quantitative research, production-grade pipelines, and high-performance implementation.
+Objective: build research-grade and production-oriented pipelines for data processing, signal construction, model estimation, and high-performance implementation.
+
 :::
 
 ::: {.q-card .span-4}
-### Research systems
+### Reproducible Research Infrastructure
 
-Research standards, Quarto, Git/GitHub, LaTeX and reproducible reports.
+Quarto, Git/GitHub, LaTeX, research standards, and automated reporting.
+
+Focus: Tools and practices for transparent, version-controlled workflows, empirical validation, and repeatable macro-financial research.
+
 :::
 
 ::: {.q-card .span-4}
-### Data and modeling
+### Macro Data and Signal Modeling
 
-Time-series data, high-frequency financial indicators, feature engineering, backtesting, model diagnostics, database integration, and automated reporting.
+Time-series, high-frequency indicators, feature engineering, backtesting, and diagnostics.
+
+Focus: transform macro-financial information into structured indicators, predictive signals, and empirically testable insights.
+
 :::
 
 :::
@@ -127,7 +134,7 @@ Time-series data, high-frequency financial indicators, feature engineering, back
 ::: {.research-hero}
 ## Applied Macro-Financial Risk Research
 
-Selected technical research and analytical notes that I have authored or co-authored, focused on financial stability, deposit dynamics, credit conditions, macro-financial linkages, and structural changes in the Dominican financial system.
+Selected technical research that I have authored or co-authored, focused on financial stability, deposit dynamics, credit conditions and macro-financial linkages.
 :::
 
 ::: {.research-grid}

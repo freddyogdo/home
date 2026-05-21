@@ -29,6 +29,8 @@ body {
   font-family: var(--font-body);
   /* line-height: 1.55; */
   letter-spacing: -0.01em;
+  font-size: 0.9rem;
+  text-align: justify;
 }
 
 #quarto-content {
@@ -65,6 +67,7 @@ body {
   max-width: 970px;
   font-size: clamp(2.45rem, 2.75vw, 5.15rem);
   font-family: var(--font-body);
+  text-align: left;
   /* line-height: 1.02; */
   margin: 0 0 1.2rem 0;
   letter-spacing: -0.06em;
@@ -73,7 +76,7 @@ body {
 .hero-block p {
   max-width: 920px;
   color: #e7eef5;
-  font-size: clamp(1.05rem, 1.6vw, 1.34rem);
+  font-size: clamp(0.9rem, 1.6vw, 1.34rem);
   font-family: var(--font-body);
   line-height: 1.62;
   margin-bottom: 1.2rem;
@@ -137,9 +140,9 @@ body {
 }
 
 .section-lead {
-  max-width: 960px;
+  max-width: 1100px;
   color: var(--q-muted);
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   font-family: var(--font-body);
   line-height: 1.68;
   margin-bottom: 1.1rem;
@@ -148,7 +151,7 @@ body {
 .q-grid {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 1.05rem;
+  gap: 0.9rem;
   margin-top: 1.25rem;
 }
 
@@ -166,12 +169,14 @@ body {
   margin-bottom: 0.55rem;
   letter-spacing: -0.025em;
   color: var(--bs-heading-color, var(--bs-body-color));
+  font-size: 1rem;
 }
 
 .q-card p,
 .q-card li {
   color: var(--q-muted);
   line-height: 1.62;
+  font-size: 0.8rem;
 }
 
 .q-card ul {
@@ -317,7 +322,7 @@ body {
 
 .research-hero p {
   color: #dbe7f2;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   line-height: 1.6;
 }
 
@@ -428,6 +433,7 @@ body.quarto-dark .research-item strong {
 .research-content-col p {
   color: #526679;
   line-height: 1.65;
+  font-size: 0.8rem;
 }
 
 .research-content-col strong {
