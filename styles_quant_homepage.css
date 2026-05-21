@@ -65,7 +65,7 @@ body {
 .hero-block h1 {
   color: white;
   max-width: 970px;
-  font-size: clamp(2.45rem, 2.75vw, 5.15rem);
+  font-size: clamp(2rem, 1vw, 4.15rem);
   font-family: var(--font-body);
   text-align: left;
   /* line-height: 1.02; */
@@ -76,7 +76,7 @@ body {
 .hero-block p {
   max-width: 920px;
   color: #e7eef5;
-  font-size: clamp(0.9rem, 1.6vw, 1.34rem);
+  font-size: clamp(0.9rem, 1.2vw, 1.34rem);
   font-family: var(--font-body);
   line-height: 1.62;
   margin-bottom: 1.2rem;
