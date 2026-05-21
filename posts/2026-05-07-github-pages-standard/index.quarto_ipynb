@@ -1,0 +1,75 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Quantitative Development\"\n",
+        "date: \"2026-05-07\"\n",
+        "categories: [github, quarto, reproducibility, quantitative-development]\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "## Motivation\n",
+        "\n",
+        "A quantitative development portfolio should demonstrate more than results. It should show how research is implemented, versioned, documented, tested, and published.\n",
+        "\n",
+        "## Standard\n",
+        "\n",
+        "The page should include:\n",
+        "\n",
+        "1. a clear research agenda;\n",
+        "2. reproducible examples;\n",
+        "3. public-safe datasets or synthetic data;\n",
+        "4. implementation notes;\n",
+        "5. diagnostics and limitations;\n",
+        "6. links to repositories or technical appendices.\n",
+        "\n",
+        "## Minimal reproducible example\n"
+      ],
+      "id": "1335fe5b"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import numpy as np\n",
+        "import pandas as pd\n",
+        "\n",
+        "rng = np.random.default_rng(123)\n",
+        "\n",
+        "df = pd.DataFrame({\n",
+        "    \"date\": pd.date_range(\"2025-01-01\", periods=100),\n",
+        "    \"return\": rng.normal(0, 0.01, 100)\n",
+        "})\n",
+        "\n",
+        "df.head()"
+      ],
+      "id": "e0808a44",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Interpretation\n",
+        "\n",
+        "The objective is to make technical credibility visible: code quality, reproducibility, and the ability to communicate complex methods clearly."
+      ],
+      "id": "f1375890"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

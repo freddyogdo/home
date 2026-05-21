@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "projects/**/*.qmd"
+
+website:
+  title: "Freddy Ogando"
+  site-url: "https://freddyogdo.github.io"
+  description: "Quantitative development and research implementations, work in progress and ideas."
+  search: true
+  navbar:
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+         #index.qmd
+      # - text: "Research"
+      #   href: research.qmd
+      # - text: "Projects"
+      #   href: projects.qmd
+      # - text: "Systems"
+      #   href: systems.qmd
+      - text: "Blog"
+        href: "https://ecn-mathline.blogspot.com/"
+      # - text: "About"
+      #   href: about.qmd
+    right:
+      - icon: github
+        href: "https://github.com/freddyogdo"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/freddy-manuel-ogando-86105799/"
+  page-footer:
+    left: "Freddy Ogando"
+
+bibliography: references.bib
+#csl: apa.csl
+
+execute:
+  freeze: auto
+  warning: false
+  message: false
+
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles_quant_homepage.css
+    toc: false
+    # toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
