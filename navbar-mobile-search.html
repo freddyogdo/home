@@ -1,0 +1,55 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const breakpoint = window.matchMedia("(max-width: 991.98px)");
+
+  function findQuartoSearchButton() {
+    return (
+      document.querySelector(".quarto-search-button") ||
+      document.querySelector("#quarto-search-button") ||
+      document.querySelector("#quarto-search button") ||
+      document.querySelector("button[aria-label='Search']") ||
+      document.querySelector("a[aria-label='Search']") ||
+      document.querySelector("button[title='Search']") ||
+      document.querySelector("a[title='Search']")
+    );
+  }
+
+  function setupMobileSearch() {
+    const navList = document.querySelector(
+      "header#quarto-header .navbar-collapse .navbar-nav"
+    );
+
+    const sourceSearchButton = findQuartoSearchButton();
+
+    if (!navList || !sourceSearchButton) return;
+
+    sourceSearchButton.classList.add("mobile-search-source");
+
+    let searchItem = document.querySelector(".mobile-menu-search-item");
+
+    if (!searchItem) {
+      searchItem = document.createElement("li");
+      searchItem.className = "nav-item mobile-menu-search-item";
+
+      const searchLink = document.createElement("button");
+      searchLink.type = "button";
+      searchLink.className = "nav-link mobile-menu-search-link";
+      searchLink.innerHTML = "<span class='mobile-search-icon'>⌕</span><span>  Search</span>";
+
+      searchLink.addEventListener("click", function () {
+        const btn = findQuartoSearchButton();
+        if (btn) btn.click();
+      });
+
+      searchItem.appendChild(searchLink);
+      navList.prepend(searchItem);
+    }
+  }
+
+  setupMobileSearch();
+  setTimeout(setupMobileSearch, 300);
+  setTimeout(setupMobileSearch, 800);
+
+  breakpoint.addEventListener("change", setupMobileSearch);
+});
+</script>

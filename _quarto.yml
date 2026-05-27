@@ -10,9 +10,17 @@ website:
   title: "Freddy Ogando"
   site-url: "https://freddyogdo.github.io"
   # description: "Quantitative development and research implementations, work in progress and ideas."
-  search: true
+
+  search:
+    location: navbar
+    type: overlay
+
   navbar:
     pinned: true
+    toggle-position: right
+    collapse-below: lg
+    tools-collapse: false
+
     left:
       - text: "Home"
         href: index.qmd
@@ -49,7 +57,7 @@ format:
     theme:
       light: cosmo
       dark: darkly
-    css: styles_quant_homepage.css
+    css: styles_quant_homepage2.css
     toc: false
     # toc: true
     toc-depth: 3
@@ -58,3 +66,5 @@ format:
     anchor-sections: true
     smooth-scroll: true
     link-external-newwindow: true
+    include-after-body:
+      - navbar-mobile-search.html

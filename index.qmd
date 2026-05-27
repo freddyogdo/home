@@ -13,17 +13,17 @@ execute:
 ::: {.hero-block}
 
 ::: {.hero-kicker}
-Quantitative Research | Development | Macro-Financial Risk
+Quantitative Research  |  Development  |  Macro-Financial Risk
 :::
 
-# Quantitative research and computational tool development for data-driven decision-making.
+# Quantitative research and computational tool development for data-driven decision-making
 
 At the intersection of economic reasoning, applied mathematics and computer science.
 
 :::
 
 ::: {.section-lead}
-The central purpose of this space is simple: to share applied knowledge and contribute to a more rigorous understanding of financial and economic systems. The underlying idea is that models and research should explain mechanisms, support decision-making, and contribute to the development of intelligent analytical systems.
+The central purpose of this space is simple: to share applied knowledge and contribute to a more rigorous understanding of macroeconomics, financial systems, and evolving risk. It is guided by the view that research and models should not only describe empirical patterns, but also explain underlying mechanisms, support decision-making, and contribute to the development of intelligent systems.
 :::
 
 

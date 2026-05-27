@@ -515,139 +515,91 @@ body.quarto-dark .research-link-secondary {
 }
 
 
-/* ================================
-   QUARTO MOBILE NAVBAR REFINEMENT
-   LEFT: TITLE + TOOLS | RIGHT: MENU
-================================ */
 
+/* =========================================================
+   MOBILE NAVBAR: TITLE LEFT | MENU RIGHT | SEARCH IN MENU
+========================================================= */
+
+/* Mobile navbar: title + toggle + menu */
 @media (max-width: 991.98px) {
 
-  /* Main mobile navbar container */
-  .navbar {
-    background: #ffffff;
-    border-bottom: 1px solid rgba(11, 31, 51, 0.12);
-    padding: 0.65rem 1rem;
-    min-height: 58px;
-  }
-
-  /* Navbar internal layout */
-  .navbar > .container-fluid,
-  .navbar .navbar-container {
+  /* Layout */
+  header#quarto-header .navbar-container,
+  header#quarto-header .container-fluid {
     display: flex !important;
-    flex-wrap: wrap !important;
     align-items: center !important;
-    justify-content: flex-start !important;
-    width: 100% !important;
+    flex-wrap: wrap !important;
   }
 
-  /* Keep brand/title visible on the left */
-  .navbar-brand,
-  .navbar-brand-container,
-  .navbar-title {
+  /* Left: site title */
+  header#quarto-header .navbar-brand,
+  header#quarto-header .navbar-title {
     display: inline-flex !important;
     align-items: center !important;
-  }
-
-  .navbar-brand,
-  .navbar-brand-container {
-    order: 1 !important;
-    margin-right: 0.6rem !important;
-    max-width: 135px !important;
-    overflow: hidden !important;
-  }
-
-  .navbar-title {
-    max-width: 135px !important;
-    overflow: hidden !important;
-    white-space: nowrap !important;
-    text-overflow: ellipsis !important;
-    font-size: 1rem !important;
+    margin-right: 0.7rem !important;
     color: #0b1f33 !important;
   }
 
-  /* Keep theme/search tools visible next to the title */
-  .quarto-navbar-tools {
-    order: 2 !important;
+  /* Middle: keep only dark-mode toggle visible */
+  header#quarto-header .quarto-navbar-tools {
     display: inline-flex !important;
     align-items: center !important;
-    gap: 0.5rem !important;
-    margin-left: 0 !important;
     margin-right: auto !important;
   }
 
-  .quarto-navbar-tools a,
-  .quarto-navbar-tools button,
-  .quarto-color-scheme-toggle,
-  #quarto-search {
-    display: inline-flex !important;
-    align-items: center !important;
-    color: #0b1f33 !important;
+  /* Hide top search icon on mobile */
+  header#quarto-header .quarto-search-button,
+  header#quarto-header #quarto-search,
+  header#quarto-header #quarto-search-button {
+    display: none !important;
   }
 
-  /* Menu button on the right */
-  .navbar-toggler {
-    order: 99 !important;
+  /* Right: menu button */
+  header#quarto-header .navbar-toggler {
     display: inline-flex !important;
     align-items: center !important;
-    gap: 0.7rem !important;
-
-    margin-left: auto !important;
-    margin-right: 0 !important;
-    padding: 0 !important;
-
+    gap: 0.75rem !important;
     border: none !important;
     background: transparent !important;
-    box-shadow: none !important;
-    color: #0b1f33 !important;
-  }
-
-  .navbar-toggler:focus,
-  .navbar-toggler:active {
-    outline: none !important;
+    padding: 0 !important;
     box-shadow: none !important;
   }
 
-  /* Add MENU text */
-  .navbar-toggler::before {
+  header#quarto-header .navbar-toggler::before {
     content: "MENU";
-    font-family: var(--font-body, Arial, sans-serif);
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.16em;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.20em;
     color: #0b1f33;
   }
 
-  /* Remove Bootstrap default hamburger */
-  .navbar-toggler-icon {
+  header#quarto-header .navbar-toggler-icon {
     display: none !important;
     background-image: none !important;
   }
 
-  /* Custom two-line hamburger */
-  .navbar-toggler::after {
+  header#quarto-header .navbar-toggler::after {
     content: "";
-    width: 27px;
-    height: 15px;
+    width: 30px;
+    height: 18px;
     display: inline-block;
     background:
-      linear-gradient(#0b1f33, #0b1f33) top left / 27px 2px no-repeat,
-      linear-gradient(#0b1f33, #0b1f33) bottom left / 27px 2px no-repeat;
+      linear-gradient(#0b1f33, #0b1f33) 0 0 / 30px 2px no-repeat,
+      linear-gradient(#0b1f33, #0b1f33) 0 8px / 20px 2px no-repeat,
+      linear-gradient(#0b1f33, #0b1f33) 0 16px / 10px 2px no-repeat;
   }
 
-  /* Dropdown menu below navbar */
-  .navbar-collapse {
-    order: 100 !important;
+  /* Dropdown menu full width */
+  header#quarto-header .navbar-collapse {
     flex-basis: 100% !important;
     width: 100% !important;
-
-    margin-top: 0.85rem !important;
-    padding-top: 0.75rem !important;
+    margin-top: 0.8rem !important;
+    padding-top: 0.8rem !important;
     border-top: 1px solid rgba(11, 31, 51, 0.12);
   }
 
-  .navbar-nav .nav-link {
-    font-size: 0.9rem;
-    padding: 0.75rem 0;
+  header#quarto-header .navbar-nav .nav-link {
     color: #0b1f33 !important;
+    padding: 0.75rem 0 !important;
   }
-} 
+}
