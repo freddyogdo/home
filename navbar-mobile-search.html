@@ -1,5 +1,62 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  const media = window.matchMedia("(max-width: 991.98px)");
+
+  function getSearchButton() {
+    return (
+      document.querySelector(".quarto-search-button") ||
+      document.querySelector("#quarto-search-button") ||
+      document.querySelector("#quarto-search button")
+    );
+  }
+
+  function updateMobileSearch() {
+    const nav = document.querySelector(
+      "header#quarto-header .navbar-collapse .navbar-nav"
+    );
+
+    const existingItem = document.querySelector("#mobile-navbar-search-item");
+
+    /* Desktop: remove the mobile Search item */
+    if (!media.matches) {
+      if (existingItem) existingItem.remove();
+      return;
+    }
+
+    /* Mobile: add Search inside dropdown */
+    if (!nav || existingItem) return;
+
+    const item = document.createElement("li");
+    item.id = "mobile-navbar-search-item";
+    item.className = "nav-item";
+
+    const link = document.createElement("a");
+    link.href = "#";
+    link.className = "nav-link";
+    link.innerHTML = `
+      <span class="mobile-search-icon">⌕</span>
+      <span>Search</span>
+    `;
+
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const searchButton = getSearchButton();
+      if (searchButton) searchButton.click();
+    });
+
+    item.appendChild(link);
+    nav.prepend(item);
+  }
+
+  updateMobileSearch();
+
+  media.addEventListener("change", updateMobileSearch);
+});
+</script>
+
+<!-- <script>
+document.addEventListener("DOMContentLoaded", function () {
   const breakpoint = window.matchMedia("(max-width: 991.98px)");
 
   function findQuartoSearchButton() {
@@ -52,4 +109,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   breakpoint.addEventListener("change", setupMobileSearch);
 });
-</script>
+</script> -->

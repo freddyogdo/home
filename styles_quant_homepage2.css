@@ -191,7 +191,8 @@ body {
 .q-card li {
   color: var(--q-muted);
   line-height: 1.62;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.036em;
 }
 
 .q-card ul {
@@ -448,7 +449,8 @@ body.quarto-dark .research-item strong {
 .research-content-col p {
   color: #526679;
   line-height: 1.65;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.036em;
 }
 
 .research-content-col strong {
@@ -601,5 +603,49 @@ body.quarto-dark .research-link-secondary {
   header#quarto-header .navbar-nav .nav-link {
     color: #0b1f33 !important;
     padding: 0.75rem 0 !important;
+  }
+}
+
+
+/* Hide mobile-only Search item on desktop */
+/* @media (min-width: 992px) {
+  header#quarto-header .mobile-search-link {
+    display: none !important;
+  }
+
+  header#quarto-header li:has(.mobile-search-link) {
+    display: none !important;
+  }
+} */
+
+
+/* ================================
+   DESKTOP NAVBAR
+   Keep original Quarto Search at right
+================================ */
+
+@media (min-width: 992px) {
+
+  /* Hide the mobile-only Search item from desktop navbar */
+  header#quarto-header .mobile-search-item,
+  header#quarto-header li:has(.mobile-search-link) {
+    display: none !important;
+  }
+
+  /* Keep original Quarto search visible on desktop */
+  header#quarto-header .quarto-search-button,
+  header#quarto-header #quarto-search,
+  header#quarto-header #quarto-search-button {
+    display: inline-flex !important;
+    visibility: visible !important;
+    align-items: center !important;
+  }
+
+  /* Optional: show text label beside the search icon */
+  header#quarto-header .quarto-search-button::after {
+    content: "Search";
+    margin-left: 0.35rem;
+    font-size: 0.9rem;
+    color: #0b1f33;
   }
 }

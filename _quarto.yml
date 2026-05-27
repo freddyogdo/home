@@ -36,8 +36,8 @@ website:
       # - text: "About"
       #   href: about.qmd
     right:
-      - icon: github
-        href: "https://github.com/freddyogdo"
+      # - icon: github
+      #   href: "https://github.com/freddyogdo"
       - icon: linkedin
         href: "https://www.linkedin.com/in/freddy-manuel-ogando-86105799/"
   page-footer:
