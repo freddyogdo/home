@@ -651,5 +651,19 @@ body.quarto-dark .research-link-secondary {
   padding-right: 1.5rem;
 }
 
+header#quarto-header .navbar-title {
+  display: inline-flex !important;
+  align-items: center !important;
+  margin-right: 0.7rem !important;
+  color: #0b1f33 !important;
+
+  font-family: var(--font-body, Arial, sans-serif) !important;
+  font-size: 1.18rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  text-decoration: none !important;
+  line-height: 1.1 !important;
+}
+
 }
 
