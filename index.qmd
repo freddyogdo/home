@@ -105,7 +105,7 @@ The central purpose of this space is simple: to share applied knowledge and cont
 
 R, C++, SQL, Python y MatLab.
 
-Objective: build research-grade and production-oriented pipelines for data processing, signal construction, model estimation, and high-performance implementation.
+The objective is to support the development of research-grade, production-oriented pipelines for data processing, signal construction, model estimation, and high-performance implementation.
 
 :::
 
@@ -114,7 +114,7 @@ Objective: build research-grade and production-oriented pipelines for data proce
 
 Quarto, Git/GitHub, LaTeX, research standards, and automated reporting.
 
-Focus: Tools and practices for transparent, version-controlled workflows, empirical validation, and repeatable macro-financial research.
+Promote transparent, version-controlled workflows, rigorous empirical validation, and repeatable macro-financial research through modern tools and reproducible practices.
 
 :::
 
@@ -123,7 +123,7 @@ Focus: Tools and practices for transparent, version-controlled workflows, empiri
 
 Time-series, high-frequency indicators, feature engineering, backtesting, and diagnostics.
 
-Focus: transform macro-financial information into structured indicators, predictive signals, and empirically testable insights.
+Focus on transforming macro-financial information into structured indicators, predictive signals, and empirically testable insights.
 
 :::
 
