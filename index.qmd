@@ -101,7 +101,7 @@ The central purpose of this space is simple: to share applied knowledge and cont
 ::: {.q-grid}
 
 ::: {.q-card .span-4}
-### Quantitative Programming
+### Quantitative Development
 
 R, C++, SQL, Python, and MatLab.
 
