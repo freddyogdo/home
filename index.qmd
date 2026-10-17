@@ -142,6 +142,28 @@ Selected technical research that I have authored or co-authored, focused on fina
 ::: {.research-card}
 
 ::: {.research-cover-col}
+[![](assets/research/covers/credit-economic-activity-cover.png){.research-cover fig-alt="Cover page of Dynamics Between Credit and Economic Activity"}](https://sb.gob.do/publicaciones/publicaciones-tecnicas/dinamica-entre-el-credito-y-la-actividad-economica/)
+:::
+
+::: {.research-content-col}
+### 2025 — Dynamics Between Credit and Economic Activity
+
+**Institution:** Superintendencia de Bancos de la República Dominicana  
+**Authors:** Freddy Ogando and Ítalo López  
+**Type:** Technical publication
+
+This research studies the short-run interaction between credit and economic activity. A Bayesian Vector Autoregression model is used to estimate expected effects at both the aggregate level and across economic sectors, providing evidence on how credit conditions and real activity interact over time.
+
+[Official page](https://sb.gob.do/publicaciones/publicaciones-tecnicas/dinamica-entre-el-credito-y-la-actividad-economica/){.research-link target="_blank"}  
+[Download PDF](https://sb.gob.do/media/pimifmvl/din%C3%A1mica-entre-el-cr%C3%A9dito-y-la-actividad-econ%C3%B3mica.pdf){.research-link-secondary target="_blank"}
+:::
+
+:::
+
+
+::: {.research-card}
+
+::: {.research-cover-col}
 [![](assets/research/covers/volatility-deposits-cover.png){.research-cover fig-alt="Cover page of Volatility and Dynamics of Deposits in the Financial System"}](https://sb.gob.do/publicaciones/publicaciones-tecnicas/volatilidad-y-dinamica-de-los-depositos-en-el-sistema-financiero/)
 :::
 
@@ -161,26 +183,7 @@ This study analyzes deposit volatility in the financial system using daily data 
 :::
 
 
-::: {.research-card}
 
-::: {.research-cover-col}
-[![](assets/research/covers/credit-economic-activity-cover.png){.research-cover fig-alt="Cover page of Dynamics Between Credit and Economic Activity"}](https://sb.gob.do/publicaciones/publicaciones-tecnicas/dinamica-entre-el-credito-y-la-actividad-economica/)
-:::
-
-::: {.research-content-col}
-### 2025 — Dynamics Between Credit and Economic Activity
-
-**Institution:** Superintendencia de Bancos de la República Dominicana  
-**Authors:** Freddy Ogando and Ítalo López  
-**Type:** Technical publication
-
-This research studies the short-run interaction between credit and economic activity. A Bayesian Vector Autoregression model is used to estimate expected effects at both the aggregate level and across economic sectors, providing evidence on how credit conditions and real activity interact over time.
-
-[Official page](https://sb.gob.do/publicaciones/publicaciones-tecnicas/dinamica-entre-el-credito-y-la-actividad-economica/){.research-link target="_blank"}  
-[Download PDF](https://sb.gob.do/media/pimifmvl/din%C3%A1mica-entre-el-cr%C3%A9dito-y-la-actividad-econ%C3%B3mica.pdf){.research-link-secondary target="_blank"}
-:::
-
-:::
 
 
 ::: {.research-card}
