@@ -214,5 +214,6 @@ This analytical note examines behavioral patterns and the sensitivity of deposit
 ::: {.footer-cta}
 ##  Research-Driven Software Development & Automation
 
-This workflow connects research, econometrics, and software engineering to build reproducible system implementations that transform complex data into actionable intelligence.:::
+This workflow connects research, econometrics, and software engineering to build reproducible system implementations that transform complex data into actionable intelligence.
+:::
 
