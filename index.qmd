@@ -152,7 +152,7 @@ Selected technical research that I have authored or co-authored, focused on fina
 **Authors:** Freddy Ogando and Ítalo López  
 **Type:** Technical publication
 
-This research studies the short-run interaction between credit and economic activity. A Bayesian Vector Autoregression model is used to estimate expected effects at both the aggregate level and across economic sectors, providing evidence on how credit conditions and real activity interact over time.
+This research studies the short-run interaction between credit and economic activity. A Bayesian Vector Autoregression (BVAR) model is used to estimate expected effects at both the aggregate level and across economic sectors, providing evidence on how credit conditions and real activity interact over time.
 
 [Official page](https://sb.gob.do/publicaciones/publicaciones-tecnicas/dinamica-entre-el-credito-y-la-actividad-economica/){.research-link target="_blank"}  
 [Download PDF](https://sb.gob.do/media/pimifmvl/din%C3%A1mica-entre-el-cr%C3%A9dito-y-la-actividad-econ%C3%B3mica.pdf){.research-link-secondary target="_blank"}
